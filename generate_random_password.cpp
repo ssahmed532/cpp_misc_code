@@ -32,12 +32,12 @@ class PasswordGenerator
 
         static bool isSpecialChar(char c)
         {
-            return SPECIAL_CHARS.find(c) != std::string::npos;
+            return (SPECIAL_CHARS.find(c) != std::string::npos);
         }
 
         static bool isNumericChar(char c)
         {
-            return NUMERIC_CHARS.find(c) != std::string::npos;
+            return (NUMERIC_CHARS.find(c) != std::string::npos);
         }
 
         static bool isAlphaChar(char c)
